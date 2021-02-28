@@ -1,0 +1,42 @@
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list > * {
+  margin-bottom: 30px
+}
+
+.student {
+  position: relative;
+}
+
+.student__age {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 48px;
+  width: 48px;
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 2rem;
+  text-align: center;
+  line-height: 48px;
+}
+
+.student__country {
+  position: absolute;
+  top: 0;
+  right: 8px;
+}
+
+.student__dob,
+.student__username,
+.student__location {
+  display: block;
+}
+
+.student__dob > i,
+.student__username > i,
+.student__location > i {
+  margin-right: 8px;
+}
